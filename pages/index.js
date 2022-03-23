@@ -2,12 +2,11 @@ import Link from "next/link";
 const Home = () => {
   return (
     <div>
-      <h1>hello world</h1>
-      <Link href="/blog">
-        <a>BLog</a>
+      <Link href="/posts">
+        <a>posts</a>
       </Link>
-      <Link href="/product">
-        <a>product</a>
+      <Link href="/products">
+        <a>products</a>
       </Link>
     </div>
   );
